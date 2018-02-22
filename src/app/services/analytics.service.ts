@@ -9,7 +9,7 @@ constructor() {
 });
 (<any> window).ga.l = +new Date();
 
-(<any> window).ga('create', 'UA-109492022-2', 'auto');
+(<any> window).ga('create', 'UA-109492022-5', 'auto');
 (<any> window).ga('require', 'cleanUrlTracker');
 (<any> window).ga('require', 'eventTracker');
 (<any> window).ga('require', 'outboundLinkTracker');
