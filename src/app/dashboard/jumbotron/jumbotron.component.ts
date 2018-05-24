@@ -17,7 +17,7 @@ export class JumbotronComponent implements OnInit {
   public constructor( public config : ConfigService ) {
     // Set the images for the jumbotron
     this.slides.push({
-        image: `assets/img/carousel/refill.jpg`,
+        image: `assets/img/carousel/ProductLine.jpg`,
         text: ``,
         aorv: `a`
       });
