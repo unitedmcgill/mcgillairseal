@@ -17,7 +17,37 @@ export class JumbotronComponent implements OnInit {
   public constructor( public config : ConfigService ) {
     // Set the images for the jumbotron
     this.slides.push({
-        image: `assets/img/carousel/ProductLine.jpg`,
+        image: `assets/img/carousel/Slide1.jpg`,
+        text: ``,
+        aorv: `a`
+      });
+      this.slides.push({
+        image: `assets/img/carousel/Slide2.jpg`,
+        text: ``,
+        aorv: `a`
+      });
+      this.slides.push({
+        image: `assets/img/carousel/Slide3.jpg`,
+        text: ``,
+        aorv: `a`
+      });
+      this.slides.push({
+        image: `assets/img/carousel/Slide4.jpg`,
+        text: ``,
+        aorv: `a`
+      });
+      this.slides.push({
+        image: `assets/img/carousel/Slide5.jpg`,
+        text: ``,
+        aorv: `a`
+      });
+      this.slides.push({
+        image: `assets/img/carousel/Slide6.jpg`,
+        text: ``,
+        aorv: `a`
+      });
+      this.slides.push({
+        image: `assets/img/carousel/Slide7.jpg`,
         text: ``,
         aorv: `a`
       });
