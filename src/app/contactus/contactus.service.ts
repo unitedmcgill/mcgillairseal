@@ -66,9 +66,9 @@ export class ContactUsService{
          //alert(url + ":" + bodyString);
      }
 
-    private _handleError(error:any){
+     private _handleError(error:any){
         console.error(error);
-        return observableThrowError(error.json().error || ' error');
+        return observableThrowError(error.message || ' error');
     }
 
     // private extractData(res: Response) {
