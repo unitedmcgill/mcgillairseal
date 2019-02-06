@@ -12,7 +12,8 @@
           Main: 614/829-1200<br />
           Toll Free: 800/624-5535<br />
           Fax: 614/829-1488<br /> 
-          sales@mcgillairseal.com<br />
+          <button *ngIf="!showEmailAddress" (click)="showEmail()">Click to see email</button>
+          <p *ngIf="showEmailAddress">{{salesEmail}}</p><br />
 				</div>
 			</div>
 		</tab>
