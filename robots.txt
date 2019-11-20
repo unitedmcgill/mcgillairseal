@@ -1,4 +1,4 @@
 User-agent: * 
 
 # The sitemap must be an absolute URL
-sitemap: http://www.mcgillairseal.com/sitemap.xml
+sitemap: https://www.mcgillairseal.com/sitemap.xml
